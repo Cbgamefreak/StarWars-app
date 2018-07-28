@@ -89,6 +89,6 @@ app.post("/api/characters", function(req, res) {
 });
 
 
-server.listen(PORT, function() {
+app.listen(PORT, function() {
   console.log("Server is listening on PORT: " + PORT);
 });
