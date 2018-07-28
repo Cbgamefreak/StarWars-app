@@ -87,3 +87,8 @@ app.post("/api/characters", function(req, res) {
 
   res.json(newcharacter); ;
 });
+
+
+server.listen(PORT, function() {
+  console.log("Server is listening on PORT: " + PORT);
+});
